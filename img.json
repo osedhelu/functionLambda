@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-east-2",
+            "eventTime": "2019-06-14T23:39:40.432Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "AWS:AIDARVHAMRS32YPPQ5LPP"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "181.49.94.119"
+            },
+            "responseElements": {
+                "x-amz-request-id": "FFB527CB82FDAF20",
+                "x-amz-id-2": "99ct0UEuPT9cgULNb3CNXPXmumoMbW4ZyUxMF6Og2LsGbjl24zQy8C5zBg48Vt3V2ZBXr+nJB/I="
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "bf526e67-fe94-4596-9741-faa27b781f07",
+                "bucket": {
+                    "name": "togo-codanielappsphotos-1ba1ioagmzv4k",
+                    "ownerIdentity": {
+                        "principalId": "A39PKAKNAJ0KO3"
+                    },
+                    "arn": "arn:aws:s3:::togo-codanielappsphotos-1ba1ioagmzv4k"
+                },
+                "object": {
+                    "key": "7702024067832.jpg",
+                    "size": 225590,
+                    "eTag": "a695ba35efb5eddc025aee63389d4882",
+                    "sequencer": "005D04303C5EA33BFB"
+                }
+            }
+        }
+    ]
+}
